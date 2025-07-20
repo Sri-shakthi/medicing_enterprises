@@ -1,0 +1,27 @@
+{
+  "name": "medicing_enterprises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sri-shakthi/medicing_enterprises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sri-shakthi/medicing_enterprises/issues"
+  },
+  "homepage": "https://github.com/Sri-shakthi/medicing_enterprises#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "pdfkit": "^0.17.1",
+    "sqlite3": "^5.1.7"
+  }
+}
