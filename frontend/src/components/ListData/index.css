@@ -1,0 +1,79 @@
+.list-container {
+    width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fefefe;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .main-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .controls input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 140px;
+    height: 38px;
+  }
+
+  .img-pdf{
+    width: 58px;
+    height: 68px;
+    margin-right: 10px;
+  }
+
+  .heading{
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .btnn{
+    padding: 8px 14px;
+    width:  140px;
+    border: none;
+    background: #1e88e5;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  
+  .btnn:hover {
+    background: #1565c0;
+  }
+  
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .student-table th,
+  .student-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .student-table th {
+    background-color: #f4f4f4;
+  }
+  
